@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1]
+## [0.1.2]
 * fixed snippet
 ## [0.1.0]
 * Initial release
