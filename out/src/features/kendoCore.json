@@ -1,0 +1,1811 @@
+{
+  "kendo": {
+    "dataviz": {
+      "ui": {
+	"ArcGaugeColor": {
+	  "color":"(property)?: string",
+	  "from":"(property)?: number",
+	  "to":"(property)?: number"
+	},
+	"ArcGaugeGaugeArea": {
+	  "background":"(property)?: string",
+	  "border":"(property)?: kendo.dataviz.ui.ArcGaugeGaugeAreaBorder",
+	  "height":"(property)?: number",
+	  "margin":"(property)?: kendo.dataviz.ui.ArcGaugeGaugeAreaMargin",
+	  "width":"(property)?: number"
+	},
+	"ArcGaugeGaugeAreaBorder": {
+	  "color":"(property)?: string",
+	  "dashType":"(property)?: string",
+	  "opacity":"(property)?: number",
+	  "width":"(property)?: number"
+	},
+	"ArcGaugeGaugeAreaMargin": {
+	  "bottom":"(property)?: number",
+	  "left":"(property)?: number",
+	  "right":"(property)?: number",
+	  "top":"(property)?: number"
+	},
+	"ArcGaugeOptions": {
+	  "color":"(property)?: string",
+	  "colors":"(property)?: kendo.dataviz.ui.ArcGaugeColor[]",
+	  "gaugeArea":"(property)?: kendo.dataviz.ui.ArcGaugeGaugeArea",
+	  "name":"(property)?: string",
+	  "opacity":"(property)?: number",
+	  "renderAs":"(property)?: string",
+	  "scale":"(property)?: kendo.dataviz.ui.ArcGaugeScale",
+	  "theme":"(property)?: string",
+	  "transitions":"(property)?: boolean",
+	  "value":"(property)?: number"
+	},
+	"ArcGaugeScale": {
+	  "endAngle":"(property)?: number",
+	  "labels":"(property)?: kendo.dataviz.ui.ArcGaugeScaleLabels",
+	  "majorTicks":"(property)?: kendo.dataviz.ui.ArcGaugeScaleMajorTicks",
+	  "majorUnit":"(property)?: number",
+	  "max":"(property)?: number",
+	  "min":"(property)?: number",
+	  "minorTicks":"(property)?: kendo.dataviz.ui.ArcGaugeScaleMinorTicks",
+	  "minorUnit":"(property)?: number",
+	  "rangeDistance":"(property)?: number",
+	  "rangeLineCap":"(property)?: string",
+	  "rangePlaceholderColor":"(property)?: string",
+	  "rangeSize":"(property)?: number",
+	  "reverse":"(property)?: boolean",
+	  "startAngle":"(property)?: number"
+	},
+	"ArcGaugeScaleLabels": {
+	  "background":"(property)?: string",
+	  "border":"(property)?: kendo.dataviz.ui.ArcGaugeScaleLabelsBorder",
+	  "color":"(property)?: string",
+	  "font":"(property)?: string",
+	  "format":"(property)?: string",
+	  "margin":"(property)?: kendo.dataviz.ui.ArcGaugeScaleLabelsMargin",
+	  "padding":"(property)?: kendo.dataviz.ui.ArcGaugeScaleLabelsPadding",
+	  "position":"(property)?: string",
+	  "template":"(property)?: string | Function",
+	  "visible":"(property)?: boolean"
+	},
+	"ArcGaugeScaleLabelsBorder": {
+	  "color":"(property)?: string",
+	  "dashType":"(property)?: string",
+	  "opacity":"(property)?: number",
+	  "width":"(property)?: number"
+	},
+	"ArcGaugeScaleLabelsMargin": {
+	  "bottom":"(property)?: number",
+	  "left":"(property)?: number",
+	  "right":"(property)?: number",
+	  "top":"(property)?: number"
+	},
+	"ArcGaugeScaleLabelsPadding": {
+	  "bottom":"(property)?: number",
+	  "left":"(property)?: number",
+	  "right":"(property)?: number",
+	  "top":"(property)?: number"
+	},
+	"ArcGaugeScaleMajorTicks": {
+	  "color":"(property)?: string",
+	  "size":"(property)?: number",
+	  "visible":"(property)?: boolean",
+	  "width":"(property)?: number"
+	},
+	"ArcGaugeScaleMinorTicks": {
+	  "color":"(property)?: string",
+	  "size":"(property)?: number",
+	  "visible":"(property)?: boolean",
+	  "width":"(property)?: number"
+	}
+      }
+    },
+    "mobile": {
+      "ui": {
+	"ActionSheetOptions": {
+	  "cancel":"(property)?: string",
+	  "close":"(method)?(e: kendo.mobile.ui.ActionSheetEvent): void",
+	  "name":"(property)?: string",
+	  "open":"(method)?(e: kendo.mobile.ui.ActionSheetOpenEvent): void",
+	  "popup":"(property)?: kendo.mobile.ui.ActionSheetPopup",
+	  "type":"(property)?: string"
+	},
+	"ActionSheetPopup": {
+	  "direction":"(property)?: string | number",
+	  "height":"(property)?: string | number",
+	  "width":"(property)?: string | number"
+	},
+	"BackButtonOptions": {
+	  "click":"(method)?(e: kendo.mobile.ui.BackButtonClickEvent): void",
+	  "name":"(property)?: string"
+	},
+	"ButtonGroupOptions": {
+	  "enable":"(property)?: boolean",
+	  "index":"(property)?: number",
+	  "name":"(property)?: string",
+	  "select":"(method)?(e: kendo.mobile.ui.ButtonGroupSelectEvent): void",
+	  "selectOn":"(property)?: string"
+	},
+	"ButtonOptions": {
+	  "badge":"(property)?: string",
+	  "click":"(method)?(e: kendo.mobile.ui.ButtonClickEvent): void",
+	  "clickOn":"(property)?: string",
+	  "enable":"(property)?: boolean",
+	  "icon":"(property)?: string",
+	  "name":"(property)?: string"
+	},
+	"CollapsibleOptions": {
+	  "animation":"(property)?: boolean",
+	  "collapse":"(method)?(e: kendo.mobile.ui.CollapsibleEvent): void",
+	  "collapsed":"(property)?: boolean",
+	  "expand":"(method)?(e: kendo.mobile.ui.CollapsibleEvent): void",
+	  "expandIcon":"(property)?: string",
+	  "iconPosition":"(property)?: string",
+	  "inset":"(property)?: boolean",
+	  "name":"(property)?: string"
+	},
+	"DetailButtonOptions": {
+	  "click":"(method)?(e: kendo.mobile.ui.DetailButtonClickEvent): void",
+	  "name":"(property)?: string"
+	},
+	"DrawerOptions": {
+	  "afterHide":"(method)?(e: kendo.mobile.ui.DrawerAfterHideEvent): void",
+	  "beforeShow":"(method)?(e: kendo.mobile.ui.DrawerEvent): void",
+	  "container":"(property)?: JQuery<HTMLElement>",
+	  "hide":"(method)?(e: kendo.mobile.ui.DrawerHideEvent): void",
+	  "init":"(method)?(e: kendo.mobile.ui.DrawerInitEvent): void",
+	  "name":"(property)?: string",
+	  "position":"(property)?: string",
+	  "show":"(method)?(e: kendo.mobile.ui.DrawerShowEvent): void",
+	  "swipeToOpen":"(property)?: boolean",
+	  "swipeToOpenViews":"(property)?: any",
+	  "title":"(property)?: string",
+	  "views":"(property)?: any"
+	},
+	"LayoutOptions": {
+	  "hide":"(method)?(e: kendo.mobile.ui.LayoutHideEvent): void",
+	  "id":"(property)?: string",
+	  "init":"(method)?(e: kendo.mobile.ui.LayoutInitEvent): void",
+	  "name":"(property)?: string",
+	  "platform":"(property)?: string",
+	  "show":"(method)?(e: kendo.mobile.ui.LayoutShowEvent): void"
+	},
+	"ListViewFilterable": {
+	  "autoFilter":"(property)?: boolean",
+	  "field":"(property)?: string",
+	  "ignoreCase":"(property)?: boolean",
+	  "operator":"(property)?: string",
+	  "placeholder":"(property)?: string"
+	},
+	"ListViewMessages": {
+	  "loadMoreText":"(property)?: string",
+	  "pullTemplate":"(property)?: string",
+	  "refreshTemplate":"(property)?: string",
+	  "releaseTemplate":"(property)?: string"
+	},
+	"ListViewOptions": {
+	  "appendOnRefresh":"(property)?: boolean",
+	  "autoBind":"(property)?: boolean",
+	  "click":"(method)?(e: kendo.mobile.ui.ListViewClickEvent): void",
+	  "dataBinding":"(method)?(e: kendo.mobile.ui.ListViewEvent): void",
+	  "dataBound":"(method)?(e: kendo.mobile.ui.ListViewEvent): void",
+	  "dataSource":"(property)?: any",
+	  "endlessScroll":"(property)?: boolean",
+	  "filterable":"(property)?: boolean | kendo.mobile.ui.ListViewFilterable",
+	  "fixedHeaders":"(property)?: boolean",
+	  "headerTemplate":"(property)?: string | Function",
+	  "itemChange":"(method)?(e: kendo.mobile.ui.ListViewEvent): void",
+	  "loadMore":"(property)?: boolean",
+	  "messages":"(property)?: kendo.mobile.ui.ListViewMessages",
+	  "name":"(property)?: string",
+	  "pullParameters":"(property)?: Function",
+	  "pullToRefresh":"(property)?: boolean",
+	  "style":"(property)?: string",
+	  "template":"(property)?: string | Function",
+	  "type":"(property)?: string",
+	  "virtualViewSize":"(property)?: number"
+	},
+	"LoaderOptions": {"name":"(property)?: string"},
+	"ModalViewOptions": {
+	  "beforeOpen":"(method)?(e: kendo.mobile.ui.ModalViewBeforeOpenEvent): void",
+	  "close":"(method)?(e: kendo.mobile.ui.ModalViewCloseEvent): void",
+	  "height":"(property)?: number",
+	  "init":"(method)?(e: kendo.mobile.ui.ModalViewInitEvent): void",
+	  "modal":"(property)?: boolean",
+	  "name":"(property)?: string",
+	  "open":"(method)?(e: kendo.mobile.ui.ModalViewOpenEvent): void",
+	  "width":"(property)?: number"
+	},
+	"NavBarOptions": {"name":"(property)?: string"},
+	"PaneOptions": {
+	  "collapsible":"(property)?: boolean",
+	  "initial":"(property)?: string",
+	  "layout":"(property)?: string",
+	  "loading":"(property)?: string",
+	  "name":"(property)?: string",
+	  "navigate":"(method)?(e: kendo.mobile.ui.PaneNavigateEvent): void",
+	  "portraitWidth":"(property)?: number",
+	  "transition":"(property)?: string",
+	  "viewShow":"(method)?(e: kendo.mobile.ui.PaneViewShowEvent): void"
+	},
+	"PopOverOptions": {
+	  "close":"(method)?(e: kendo.mobile.ui.PopOverCloseEvent): void",
+	  "name":"(property)?: string",
+	  "open":"(method)?(e: kendo.mobile.ui.PopOverOpenEvent): void",
+	  "pane":"(property)?: kendo.mobile.ui.PopOverPane",
+	  "popup":"(property)?: kendo.mobile.ui.PopOverPopup"
+	},
+	"PopOverPane": {
+	  "initial":"(property)?: string",
+	  "layout":"(property)?: string",
+	  "loading":"(property)?: string",
+	  "transition":"(property)?: string"
+	},
+	"PopOverPopup": {
+	  "height":"(property)?: string | number",
+	  "width":"(property)?: string | number"
+	},
+	"ScrollViewOptions": {
+	  "autoBind":"(property)?: boolean",
+	  "bounceVelocityThreshold":"(property)?: number",
+	  "change":"(method)?(e: kendo.mobile.ui.ScrollViewChangeEvent): void",
+	  "changing":"(method)?(e: kendo.mobile.ui.ScrollViewChangingEvent): void",
+	  "contentHeight":"(property)?: string | number",
+	  "dataSource":"(property)?: any",
+	  "duration":"(property)?: number",
+	  "emptyTemplate":"(property)?: string",
+	  "enablePager":"(property)?: boolean",
+	  "itemsPerPage":"(property)?: number",
+	  "name":"(property)?: string",
+	  "page":"(property)?: number",
+	  "pageSize":"(property)?: number",
+	  "refresh":"(method)?(e: kendo.mobile.ui.ScrollViewRefreshEvent): void",
+	  "template":"(property)?: string",
+	  "velocityThreshold":"(property)?: number"
+	},
+	"ScrollerMessages": {
+	  "pullTemplate":"(property)?: string",
+	  "refreshTemplate":"(property)?: string",
+	  "releaseTemplate":"(property)?: string"
+	},
+	"ScrollerOptions": {
+	  "elastic":"(property)?: boolean",
+	  "messages":"(property)?: kendo.mobile.ui.ScrollerMessages",
+	  "name":"(property)?: string",
+	  "pull":"(method)?(e: kendo.mobile.ui.ScrollerEvent): void",
+	  "pullOffset":"(property)?: number",
+	  "pullToRefresh":"(property)?: boolean",
+	  "resize":"(method)?(e: kendo.mobile.ui.ScrollerEvent): void",
+	  "scroll":"(method)?(e: kendo.mobile.ui.ScrollerScrollEvent): void",
+	  "useNative":"(property)?: boolean",
+	  "visibleScrollHints":"(property)?: boolean",
+	  "zoom":"(property)?: boolean"
+	},
+	"SplitViewOptions": {
+	  "init":"(method)?(e: kendo.mobile.ui.SplitViewInitEvent): void",
+	  "name":"(property)?: string",
+	  "show":"(method)?(e: kendo.mobile.ui.SplitViewShowEvent): void",
+	  "style":"(property)?: string"
+	},
+	"SwitchOptions": {
+	  "change":"(method)?(e: kendo.mobile.ui.SwitchChangeEvent): void",
+	  "checked":"(property)?: boolean",
+	  "enable":"(property)?: boolean",
+	  "name":"(property)?: string",
+	  "offLabel":"(property)?: string",
+	  "onLabel":"(property)?: string"
+	},
+	"TabStripOptions": {
+	  "name":"(property)?: string",
+	  "select":"(method)?(e: kendo.mobile.ui.TabStripSelectEvent): void",
+	  "selectedIndex":"(property)?: number"
+	},
+	"ViewOptions": {
+	  "afterShow":"(method)?(e: kendo.mobile.ui.ViewAfterShowEvent): void",
+	  "beforeHide":"(method)?(e: kendo.mobile.ui.ViewBeforeHideEvent): void",
+	  "beforeShow":"(method)?(e: kendo.mobile.ui.ViewBeforeShowEvent): void",
+	  "hide":"(method)?(e: kendo.mobile.ui.ViewHideEvent): void",
+	  "init":"(method)?(e: kendo.mobile.ui.ViewInitEvent): void",
+	  "model":"(property)?: string",
+	  "name":"(property)?: string",
+	  "reload":"(property)?: boolean",
+	  "scroller":"(property)?: any",
+	  "show":"(method)?(e: kendo.mobile.ui.ViewShowEvent): void",
+	  "stretch":"(property)?: boolean",
+	  "title":"(property)?: string",
+	  "transitionEnd":"(method)?(e: kendo.mobile.ui.ViewTransitionEndEvent): void",
+	  "transitionStart":"(method)?(e: kendo.mobile.ui.ViewTransitionStartEvent): void",
+	  "useNativeScrolling":"(property)?: boolean",
+	  "zoom":"(property)?: boolean"
+	}
+      }
+    },
+    "ui": {
+      "AlertMessages": {"okText":"(property)?: string"},
+      "AlertOptions": {
+	"messages":"(property)?: kendo.ui.AlertMessages",
+	"name":"(property)?: string"
+      },
+      "AutoCompleteAnimation": {
+	"close":"(property)?: kendo.ui.AutoCompleteAnimationClose",
+	"open":"(property)?: kendo.ui.AutoCompleteAnimationOpen"
+      },
+      "AutoCompleteAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "AutoCompleteAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "AutoCompleteOptions": {
+	"animation":"(property)?: boolean | kendo.ui.AutoCompleteAnimation",
+	"autoWidth":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.AutoCompleteChangeEvent): void",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.AutoCompleteCloseEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.AutoCompleteDataBoundEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"delay":"(property)?: number",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filtering":"(method)?(e: kendo.ui.AutoCompleteFilteringEvent): void",
+	"fixedGroupTemplate":"(property)?: string | Function",
+	"footerTemplate":"(property)?: string | Function",
+	"groupTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: number",
+	"highlightFirst":"(property)?: boolean",
+	"ignoreCase":"(property)?: boolean",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.AutoCompleteOpenEvent): void",
+	"placeholder":"(property)?: string",
+	"popup":"(property)?: any",
+	"select":"(method)?(e: kendo.ui.AutoCompleteSelectEvent): void",
+	"separator":"(property)?: any",
+	"suggest":"(property)?: boolean",
+	"template":"(property)?: string | Function",
+	"value":"(property)?: string",
+	"valuePrimitive":"(property)?: boolean",
+	"virtual":"(property)?: boolean | kendo.ui.AutoCompleteVirtual"
+      },
+      "AutoCompleteVirtual": {
+	"itemHeight":"(property)?: number",
+	"mapValueTo":"(property)?: string",
+	"valueMapper":"(property)?: Function"
+      },
+      "ButtonGroupItem": {
+	"attributes":"(property)?: any",
+	"badge":"(property)?: string",
+	"enabled":"(property)?: boolean",
+	"encoded":"(property)?: boolean",
+	"icon":"(property)?: string",
+	"iconClass":"(property)?: string",
+	"imageUrl":"(property)?: string",
+	"selected":"(property)?: boolean",
+	"text":"(property)?: string"
+      },
+      "ButtonGroupOptions": {
+	"enable":"(property)?: boolean",
+	"index":"(property)?: number",
+	"items":"(property)?: kendo.ui.ButtonGroupItem[]",
+	"name":"(property)?: string",
+	"select":"(method)?(e: kendo.ui.ButtonGroupSelectEvent): void",
+	"selection":"(property)?: string"
+      },
+      "ButtonOptions": {
+	"click":"(method)?(e: kendo.ui.ButtonClickEvent): void",
+	"enable":"(property)?: boolean",
+	"icon":"(property)?: string",
+	"iconClass":"(property)?: string",
+	"imageUrl":"(property)?: string",
+	"name":"(property)?: string",
+	"spriteCssClass":"(property)?: string"
+      },
+      "CalendarMessages": {"weekColumnHeader":"(property)?: string"},
+      "CalendarMonth": {
+	"content":"(property)?: string",
+	"empty":"(property)?: string",
+	"weekNumber":"(property)?: string"
+      },
+      "CalendarOptions": {
+	"change":"(method)?(e: kendo.ui.CalendarEvent): void",
+	"culture":"(property)?: string",
+	"dates":"(property)?: any",
+	"depth":"(property)?: string",
+	"disableDates":"(property)?: any",
+	"footer":"(property)?: string | boolean | Function",
+	"format":"(property)?: string",
+	"max":"(property)?: Date",
+	"messages":"(property)?: kendo.ui.CalendarMessages",
+	"min":"(property)?: Date",
+	"month":"(property)?: kendo.ui.CalendarMonth",
+	"name":"(property)?: string",
+	"navigate":"(method)?(e: kendo.ui.CalendarEvent): void",
+	"selectDates":"(property)?: any",
+	"selectable":"(property)?: string",
+	"start":"(property)?: string",
+	"value":"(property)?: Date",
+	"weekNumber":"(property)?: boolean"
+      },
+      "ChatMessages": {"placeholder":"(property)?: string"},
+      "ChatOptions": {
+	"actionClick":"(method)?(e: kendo.ui.ChatActionClickEvent): void",
+	"messages":"(property)?: kendo.ui.ChatMessages",
+	"name":"(property)?: string",
+	"post":"(method)?(e: kendo.ui.ChatPostEvent): void",
+	"sendMessage":"(method)?(e: kendo.ui.ChatSendMessageEvent): void",
+	"typingEnd":"(method)?(e: kendo.ui.ChatTypingEndEvent): void",
+	"typingStart":"(method)?(e: kendo.ui.ChatTypingStartEvent): void",
+	"user":"(property)?: kendo.ui.ChatUser"
+      },
+      "ChatUser": {"iconUrl":"(property)?: string", "name":"(property)?: string"},
+      "ColorPaletteOptions": {
+	"change":"(method)?(e: kendo.ui.ColorPaletteEvent): void",
+	"columns":"(property)?: number",
+	"name":"(property)?: string",
+	"palette":"(property)?: any",
+	"tileSize":"(property)?: kendo.ui.ColorPaletteTileSize",
+	"value":"(property)?: string"
+      },
+      "ColorPaletteTileSize": {"height":"(property)?: number", "width":"(property)?: number"},
+      "ColorPickerMessages": {
+	"apply":"(property)?: string",
+	"cancel":"(property)?: string",
+	"previewInput":"(property)?: string"
+      },
+      "ColorPickerOptions": {
+	"buttons":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.ColorPickerChangeEvent): void",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.ColorPickerEvent): void",
+	"columns":"(property)?: number",
+	"messages":"(property)?: kendo.ui.ColorPickerMessages",
+	"name":"(property)?: string",
+	"opacity":"(property)?: boolean",
+	"open":"(method)?(e: kendo.ui.ColorPickerEvent): void",
+	"palette":"(property)?: any",
+	"preview":"(property)?: boolean",
+	"select":"(method)?(e: kendo.ui.ColorPickerSelectEvent): void",
+	"tileSize":"(property)?: kendo.ui.ColorPickerTileSize",
+	"toolIcon":"(property)?: string",
+	"value":"(property)?: string"
+      },
+      "ColorPickerTileSize": {"height":"(property)?: number", "width":"(property)?: number"},
+      "ComboBoxAnimation": {
+	"close":"(property)?: kendo.ui.ComboBoxAnimationClose",
+	"open":"(property)?: kendo.ui.ComboBoxAnimationOpen"
+      },
+      "ComboBoxAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "ComboBoxAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "ComboBoxOptions": {
+	"animation":"(property)?: kendo.ui.ComboBoxAnimation",
+	"autoBind":"(property)?: boolean",
+	"autoWidth":"(property)?: boolean",
+	"cascade":"(method)?(e: kendo.ui.ComboBoxCascadeEvent): void",
+	"cascadeFrom":"(property)?: string",
+	"cascadeFromField":"(property)?: string",
+	"change":"(method)?(e: kendo.ui.ComboBoxChangeEvent): void",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.ComboBoxCloseEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.ComboBoxDataBoundEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"dataValueField":"(property)?: string",
+	"delay":"(property)?: number",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filtering":"(method)?(e: kendo.ui.ComboBoxFilteringEvent): void",
+	"fixedGroupTemplate":"(property)?: string | Function",
+	"footerTemplate":"(property)?: string | Function",
+	"groupTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: number",
+	"highlightFirst":"(property)?: boolean",
+	"ignoreCase":"(property)?: boolean",
+	"index":"(property)?: number",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.ComboBoxOpenEvent): void",
+	"placeholder":"(property)?: string",
+	"popup":"(property)?: kendo.ui.ComboBoxPopup",
+	"select":"(method)?(e: kendo.ui.ComboBoxSelectEvent): void",
+	"suggest":"(property)?: boolean",
+	"syncValueAndText":"(property)?: boolean",
+	"template":"(property)?: string | Function",
+	"text":"(property)?: string",
+	"value":"(property)?: string",
+	"valuePrimitive":"(property)?: boolean",
+	"virtual":"(property)?: boolean | kendo.ui.ComboBoxVirtual"
+      },
+      "ComboBoxPopup": {
+	"appendTo":"(property)?: string",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "ComboBoxVirtual": {
+	"itemHeight":"(property)?: number",
+	"mapValueTo":"(property)?: string",
+	"valueMapper":"(property)?: Function"
+      },
+      "ConfirmMessages": {"cancel":"(property)?: string", "okText":"(property)?: string"},
+      "ConfirmOptions": {
+	"messages":"(property)?: kendo.ui.ConfirmMessages",
+	"name":"(property)?: string"
+      },
+      "ContextMenuAnimation": {
+	"close":"(property)?: kendo.ui.ContextMenuAnimationClose",
+	"open":"(property)?: kendo.ui.ContextMenuAnimationOpen"
+      },
+      "ContextMenuAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "ContextMenuAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "ContextMenuOptions": {
+	"activate":"(method)?(e: kendo.ui.ContextMenuActivateEvent): void",
+	"alignToAnchor":"(property)?: boolean",
+	"animation":"(property)?: boolean | kendo.ui.ContextMenuAnimation",
+	"appendTo":"(property)?: string | JQuery<HTMLElement>",
+	"close":"(method)?(e: kendo.ui.ContextMenuCloseEvent): void",
+	"closeOnClick":"(property)?: boolean",
+	"copyAnchorStyles":"(property)?: boolean",
+	"dataSource":"(property)?: any",
+	"deactivate":"(method)?(e: kendo.ui.ContextMenuDeactivateEvent): void",
+	"direction":"(property)?: string",
+	"filter":"(property)?: string",
+	"hoverDelay":"(property)?: number",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.ContextMenuOpenEvent): void",
+	"orientation":"(property)?: string",
+	"popupCollision":"(property)?: string",
+	"select":"(method)?(e: kendo.ui.ContextMenuSelectEvent): void",
+	"showOn":"(property)?: string",
+	"target":"(property)?: string | JQuery<HTMLElement>"
+      },
+      "DateInputMessages": {
+	"day":"(property)?: string",
+	"dayperiod":"(property)?: string",
+	"hour":"(property)?: string",
+	"minute":"(property)?: string",
+	"month":"(property)?: string",
+	"second":"(property)?: string",
+	"weekday":"(property)?: string",
+	"year":"(property)?: string"
+      },
+      "DateInputOptions": {
+	"change":"(method)?(e: kendo.ui.DateInputChangeEvent): void",
+	"format":"(property)?: string",
+	"max":"(property)?: Date",
+	"messages":"(property)?: kendo.ui.DateInputMessages",
+	"min":"(property)?: Date",
+	"name":"(property)?: string",
+	"value":"(property)?: Date"
+      },
+      "DatePickerAnimation": {
+	"close":"(property)?: kendo.ui.DatePickerAnimationClose",
+	"open":"(property)?: kendo.ui.DatePickerAnimationOpen"
+      },
+      "DatePickerAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DatePickerAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DatePickerMonth": {
+	"content":"(property)?: string",
+	"empty":"(property)?: string",
+	"weekNumber":"(property)?: string"
+      },
+      "DatePickerOptions": {
+	"ARIATemplate":"(property)?: string",
+	"animation":"(property)?: boolean | kendo.ui.DatePickerAnimation",
+	"change":"(method)?(e: kendo.ui.DatePickerChangeEvent): void",
+	"close":"(method)?(e: kendo.ui.DatePickerCloseEvent): void",
+	"culture":"(property)?: string",
+	"dateInput":"(property)?: boolean",
+	"dates":"(property)?: any",
+	"depth":"(property)?: string",
+	"disableDates":"(property)?: any",
+	"footer":"(property)?: string | boolean | Function",
+	"format":"(property)?: string",
+	"max":"(property)?: Date",
+	"min":"(property)?: Date",
+	"month":"(property)?: kendo.ui.DatePickerMonth",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.DatePickerOpenEvent): void",
+	"parseFormats":"(property)?: any",
+	"start":"(property)?: string",
+	"value":"(property)?: Date",
+	"weekNumber":"(property)?: boolean"
+      },
+      "DateTimePickerAnimation": {
+	"close":"(property)?: kendo.ui.DateTimePickerAnimationClose",
+	"open":"(property)?: kendo.ui.DateTimePickerAnimationOpen"
+      },
+      "DateTimePickerAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DateTimePickerAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DateTimePickerMonth": {
+	"content":"(property)?: string",
+	"empty":"(property)?: string",
+	"weekNumber":"(property)?: string"
+      },
+      "DateTimePickerOptions": {
+	"ARIATemplate":"(property)?: string",
+	"animation":"(property)?: boolean | kendo.ui.DateTimePickerAnimation",
+	"change":"(method)?(e: kendo.ui.DateTimePickerChangeEvent): void",
+	"close":"(method)?(e: kendo.ui.DateTimePickerCloseEvent): void",
+	"culture":"(property)?: string",
+	"dateInput":"(property)?: boolean",
+	"dates":"(property)?: any",
+	"depth":"(property)?: string",
+	"disableDates":"(property)?: any",
+	"footer":"(property)?: string | boolean | Function",
+	"format":"(property)?: string",
+	"interval":"(property)?: number",
+	"max":"(property)?: Date",
+	"min":"(property)?: Date",
+	"month":"(property)?: kendo.ui.DateTimePickerMonth",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.DateTimePickerOpenEvent): void",
+	"parseFormats":"(property)?: any",
+	"start":"(property)?: string",
+	"timeFormat":"(property)?: string",
+	"value":"(property)?: Date",
+	"weekNumber":"(property)?: boolean"
+      },
+      "DialogAction": {
+	"action":"(property)?: Function",
+	"primary":"(property)?: boolean",
+	"text":"(property)?: string"
+      },
+      "DialogAnimation": {
+	"close":"(property)?: kendo.ui.DialogAnimationClose",
+	"open":"(property)?: kendo.ui.DialogAnimationOpen"
+      },
+      "DialogAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DialogAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DialogMessages": {
+	"close":"(property)?: string",
+	"promptInput":"(property)?: string"
+      },
+      "DialogOptions": {
+	"actions":"(property)?: kendo.ui.DialogAction[]",
+	"animation":"(property)?: boolean | kendo.ui.DialogAnimation",
+	"buttonLayout":"(property)?: string",
+	"closable":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.DialogCloseEvent): void",
+	"content":"(property)?: string",
+	"height":"(property)?: string | number",
+	"hide":"(method)?(e: kendo.ui.DialogEvent): void",
+	"initOpen":"(method)?(e: kendo.ui.DialogEvent): void",
+	"maxHeight":"(property)?: number",
+	"maxWidth":"(property)?: number",
+	"messages":"(property)?: kendo.ui.DialogMessages",
+	"minHeight":"(property)?: number",
+	"minWidth":"(property)?: number",
+	"modal":"(property)?: boolean",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.DialogEvent): void",
+	"show":"(method)?(e: kendo.ui.DialogEvent): void",
+	"title":"(property)?: string | boolean",
+	"visible":"(property)?: boolean",
+	"width":"(property)?: string | number"
+      },
+      "DraggableOptions": {
+	"autoScroll":"(property)?: boolean",
+	"axis":"(property)?: string",
+	"container":"(property)?: JQuery<HTMLElement>",
+	"cursorOffset":"(property)?: any",
+	"distance":"(property)?: number",
+	"drag":"(method)?(e: kendo.ui.DraggableEvent): void",
+	"dragcancel":"(method)?(e: kendo.ui.DraggableEvent): void",
+	"dragend":"(method)?(e: kendo.ui.DraggableEvent): void",
+	"dragstart":"(method)?(e: kendo.ui.DraggableEvent): void",
+	"filter":"(property)?: string",
+	"group":"(property)?: string",
+	"hint":"(property)?: Function | JQuery<HTMLElement>",
+	"hold":"(method)?(e: kendo.ui.DraggableEvent): void",
+	"holdToDrag":"(property)?: boolean",
+	"ignore":"(property)?: string"
+      },
+      "DropDownListAnimation": {
+	"close":"(property)?: kendo.ui.DropDownListAnimationClose",
+	"open":"(property)?: kendo.ui.DropDownListAnimationOpen"
+      },
+      "DropDownListAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DropDownListAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DropDownListOptions": {
+	"animation":"(property)?: boolean | kendo.ui.DropDownListAnimation",
+	"autoBind":"(property)?: boolean",
+	"autoWidth":"(property)?: boolean",
+	"cascade":"(method)?(e: kendo.ui.DropDownListCascadeEvent): void",
+	"cascadeFrom":"(property)?: string",
+	"cascadeFromField":"(property)?: string",
+	"change":"(method)?(e: kendo.ui.DropDownListChangeEvent): void",
+	"close":"(method)?(e: kendo.ui.DropDownListCloseEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.DropDownListDataBoundEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"dataValueField":"(property)?: string",
+	"delay":"(property)?: number",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filtering":"(method)?(e: kendo.ui.DropDownListFilteringEvent): void",
+	"fixedGroupTemplate":"(property)?: string | Function",
+	"footerTemplate":"(property)?: string | Function",
+	"groupTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: number",
+	"ignoreCase":"(property)?: boolean",
+	"index":"(property)?: number",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.DropDownListOpenEvent): void",
+	"optionLabel":"(property)?: any",
+	"optionLabelTemplate":"(property)?: string | Function",
+	"popup":"(property)?: kendo.ui.DropDownListPopup",
+	"select":"(method)?(e: kendo.ui.DropDownListSelectEvent): void",
+	"template":"(property)?: string | Function",
+	"text":"(property)?: string",
+	"value":"(property)?: string",
+	"valuePrimitive":"(property)?: boolean",
+	"valueTemplate":"(property)?: string | Function",
+	"virtual":"(property)?: boolean | kendo.ui.DropDownListVirtual"
+      },
+      "DropDownListPopup": {
+	"appendTo":"(property)?: string",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "DropDownListVirtual": {
+	"itemHeight":"(property)?: number",
+	"mapValueTo":"(property)?: string",
+	"valueMapper":"(property)?: Function"
+      },
+      "DropDownTreeAnimation": {
+	"close":"(property)?: kendo.ui.DropDownTreeAnimationClose",
+	"open":"(property)?: kendo.ui.DropDownTreeAnimationOpen"
+      },
+      "DropDownTreeAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DropDownTreeAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "DropDownTreeCheckboxes": {
+	"checkChildren":"(property)?: boolean",
+	"name":"(property)?: string",
+	"template":"(property)?: string | Function"
+      },
+      "DropDownTreeMessages": {
+	"clear":"(property)?: string",
+	"deleteTag":"(property)?: string",
+	"singleTag":"(property)?: string"
+      },
+      "DropDownTreeOptions": {
+	"animation":"(property)?: boolean | kendo.ui.DropDownTreeAnimation",
+	"autoBind":"(property)?: boolean",
+	"autoClose":"(property)?: boolean",
+	"autoWidth":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.DropDownTreeChangeEvent): void",
+	"checkAll":"(property)?: boolean",
+	"checkAllTemplate":"(property)?: string | Function",
+	"checkboxes":"(property)?: boolean | kendo.ui.DropDownTreeCheckboxes",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.DropDownTreeCloseEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.DropDownTreeDataBoundEvent): void",
+	"dataImageUrlField":"(property)?: string",
+	"dataSource":"(property)?: any",
+	"dataSpriteCssClassField":"(property)?: string",
+	"dataTextField":"(property)?: any",
+	"dataUrlField":"(property)?: string",
+	"dataValueField":"(property)?: any",
+	"delay":"(property)?: number",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filtering":"(method)?(e: kendo.ui.DropDownTreeFilteringEvent): void",
+	"footerTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: string | number",
+	"ignoreCase":"(property)?: boolean",
+	"loadOnDemand":"(property)?: boolean",
+	"messages":"(property)?: kendo.ui.DropDownTreeMessages",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.DropDownTreeOpenEvent): void",
+	"placeholder":"(property)?: string",
+	"popup":"(property)?: kendo.ui.DropDownTreePopup",
+	"select":"(method)?(e: kendo.ui.DropDownTreeSelectEvent): void",
+	"tagMode":"(property)?: string",
+	"template":"(property)?: string | Function",
+	"text":"(property)?: string",
+	"value":"(property)?: any",
+	"valuePrimitive":"(property)?: boolean",
+	"valueTemplate":"(property)?: string | Function"
+      },
+      "DropDownTreePopup": {
+	"appendTo":"(property)?: string",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "DropTargetAreaOptions": {
+	"dragenter":"(method)?(e: kendo.ui.DropTargetAreaDragenterEvent): void",
+	"dragleave":"(method)?(e: kendo.ui.DropTargetAreaDragleaveEvent): void",
+	"drop":"(method)?(e: kendo.ui.DropTargetAreaDropEvent): void",
+	"filter":"(property)?: string",
+	"group":"(property)?: string"
+      },
+      "DropTargetOptions": {
+	"dragenter":"(method)?(e: kendo.ui.DropTargetDragenterEvent): void",
+	"dragleave":"(method)?(e: kendo.ui.DropTargetDragleaveEvent): void",
+	"drop":"(method)?(e: kendo.ui.DropTargetDropEvent): void",
+	"group":"(property)?: string"
+      },
+      "FilterMenuMessages": {
+	"additionalOperator":"(property)?: string",
+	"additionalValue":"(property)?: string",
+	"and":"(property)?: string",
+	"clear":"(property)?: string",
+	"filter":"(property)?: string",
+	"info":"(property)?: string",
+	"isFalse":"(property)?: string",
+	"isTrue":"(property)?: string",
+	"logic":"(property)?: string",
+	"or":"(property)?: string",
+	"selectValue":"(property)?: string",
+	"title":"(property)?: string"
+      },
+      "FilterMenuOperators": {
+	"date":"(property)?: kendo.ui.FilterMenuOperatorsDate",
+	"enums":"(property)?: kendo.ui.FilterMenuOperatorsEnums",
+	"number":"(property)?: kendo.ui.FilterMenuOperatorsNumber",
+	"string":"(property)?: kendo.ui.FilterMenuOperatorsString"
+      },
+      "FilterMenuOperatorsDate": {
+	"eq":"(property)?: string",
+	"gt":"(property)?: string",
+	"gte":"(property)?: string",
+	"isnotnull":"(property)?: string",
+	"isnull":"(property)?: string",
+	"lt":"(property)?: string",
+	"lte":"(property)?: string",
+	"neq":"(property)?: string"
+      },
+      "FilterMenuOperatorsEnums": {
+	"eq":"(property)?: string",
+	"isnotnull":"(property)?: string",
+	"isnull":"(property)?: string",
+	"neq":"(property)?: string"
+      },
+      "FilterMenuOperatorsNumber": {
+	"eq":"(property)?: string",
+	"gt":"(property)?: string",
+	"gte":"(property)?: string",
+	"isnotnull":"(property)?: string",
+	"isnull":"(property)?: string",
+	"lt":"(property)?: string",
+	"lte":"(property)?: string",
+	"neq":"(property)?: string"
+      },
+      "FilterMenuOperatorsString": {
+	"contains":"(property)?: string",
+	"doesnotcontain":"(property)?: string",
+	"endswith":"(property)?: string",
+	"eq":"(property)?: string",
+	"isempty":"(property)?: string",
+	"isnotempty":"(property)?: string",
+	"isnotnull":"(property)?: string",
+	"isnotnullorempty":"(property)?: string",
+	"isnull":"(property)?: string",
+	"isnullorempty":"(property)?: string",
+	"neq":"(property)?: string",
+	"startswith":"(property)?: string"
+      },
+      "FilterMenuOptions": {
+	"dataSource":"(property)?: any",
+	"extra":"(property)?: boolean",
+	"field":"(property)?: string",
+	"messages":"(property)?: kendo.ui.FilterMenuMessages",
+	"name":"(property)?: string",
+	"operators":"(property)?: kendo.ui.FilterMenuOperators"
+      },
+      "FlatColorPickerMessages": {"apply":"(property)?: string", "cancel":"(property)?: string"},
+      "FlatColorPickerOptions": {
+	"autoupdate":"(property)?: boolean",
+	"buttons":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.FlatColorPickerChangeEvent): void",
+	"messages":"(property)?: kendo.ui.FlatColorPickerMessages",
+	"name":"(property)?: string",
+	"opacity":"(property)?: boolean",
+	"preview":"(property)?: boolean",
+	"value":"(property)?: string"
+      },
+      "ListBoxDraggable": {
+	"enabled":"(property)?: boolean",
+	"hint":"(property)?: string | Function | JQuery<HTMLElement>",
+	"placeholder":"(property)?: string | Function | JQuery<HTMLElement>"
+      },
+      "ListBoxMessages": {"tools":"(property)?: kendo.ui.ListBoxMessagesTools"},
+      "ListBoxMessagesTools": {
+	"moveDown":"(property)?: string",
+	"moveUp":"(property)?: string",
+	"remove":"(property)?: string",
+	"transferAllFrom":"(property)?: string",
+	"transferAllTo":"(property)?: string",
+	"transferFrom":"(property)?: string",
+	"transferTo":"(property)?: string"
+      },
+      "ListBoxOptions": {
+	"add":"(method)?(e: kendo.ui.ListBoxAddEvent): void",
+	"autoBind":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.ListBoxEvent): void",
+	"connectWith":"(property)?: string",
+	"dataBound":"(method)?(e: kendo.ui.ListBoxEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"dataValueField":"(property)?: string",
+	"drag":"(method)?(e: kendo.ui.ListBoxDragEvent): void",
+	"dragend":"(method)?(e: kendo.ui.ListBoxDragendEvent): void",
+	"draggable":"(property)?: boolean | kendo.ui.ListBoxDraggable",
+	"dragstart":"(method)?(e: kendo.ui.ListBoxDragstartEvent): void",
+	"drop":"(method)?(e: kendo.ui.ListBoxDropEvent): void",
+	"dropSources":"(property)?: any",
+	"messages":"(property)?: kendo.ui.ListBoxMessages",
+	"name":"(property)?: string",
+	"navigatable":"(property)?: boolean",
+	"remove":"(method)?(e: kendo.ui.ListBoxRemoveEvent): void",
+	"reorder":"(method)?(e: kendo.ui.ListBoxReorderEvent): void",
+	"selectable":"(property)?: string",
+	"template":"(property)?: string | Function",
+	"toolbar":"(property)?: kendo.ui.ListBoxToolbar"
+      },
+      "ListBoxToolbar": {"position":"(property)?: string", "tools":"(property)?: any"},
+      "ListViewOptions": {
+	"altTemplate":"(property)?: Function",
+	"autoBind":"(property)?: boolean",
+	"cancel":"(method)?(e: kendo.ui.ListViewCancelEvent): void",
+	"change":"(method)?(e: kendo.ui.ListViewEvent): void",
+	"dataBinding":"(method)?(e: kendo.ui.ListViewEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.ListViewEvent): void",
+	"dataSource":"(property)?: any",
+	"edit":"(method)?(e: kendo.ui.ListViewEditEvent): void",
+	"editTemplate":"(property)?: Function",
+	"name":"(property)?: string",
+	"navigatable":"(property)?: boolean",
+	"remove":"(method)?(e: kendo.ui.ListViewRemoveEvent): void",
+	"save":"(method)?(e: kendo.ui.ListViewSaveEvent): void",
+	"selectable":"(property)?: string | boolean",
+	"template":"(property)?: Function"
+      },
+      "MaskedTextBoxOptions": {
+	"change":"(method)?(e: kendo.ui.MaskedTextBoxChangeEvent): void",
+	"clearPromptChar":"(property)?: boolean",
+	"culture":"(property)?: string",
+	"mask":"(property)?: string",
+	"name":"(property)?: string",
+	"promptChar":"(property)?: string",
+	"rules":"(property)?: any",
+	"unmaskOnPost":"(property)?: boolean",
+	"value":"(property)?: string"
+      },
+      "MenuAnimation": {
+	"close":"(property)?: kendo.ui.MenuAnimationClose",
+	"open":"(property)?: kendo.ui.MenuAnimationOpen"
+      },
+      "MenuAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MenuAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MenuOpenOnClick": {
+	"rootMenuItems":"(property)?: boolean",
+	"subMenuItems":"(property)?: boolean"
+      },
+      "MenuOptions": {
+	"activate":"(method)?(e: kendo.ui.MenuActivateEvent): void",
+	"animation":"(property)?: boolean | kendo.ui.MenuAnimation",
+	"close":"(method)?(e: kendo.ui.MenuCloseEvent): void",
+	"closeOnClick":"(property)?: boolean",
+	"dataSource":"(property)?: any",
+	"deactivate":"(method)?(e: kendo.ui.MenuDeactivateEvent): void",
+	"direction":"(property)?: string",
+	"hoverDelay":"(property)?: number",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.MenuOpenEvent): void",
+	"openOnClick":"(property)?: boolean | kendo.ui.MenuOpenOnClick",
+	"orientation":"(property)?: string",
+	"popupCollision":"(property)?: string",
+	"scrollable":"(property)?: boolean | kendo.ui.MenuScrollable",
+	"select":"(method)?(e: kendo.ui.MenuSelectEvent): void"
+      },
+      "MenuScrollable": {"distance":"(property)?: number"},
+      "MultiColumnComboBoxAnimation": {
+	"close":"(property)?: kendo.ui.MultiColumnComboBoxAnimationClose",
+	"open":"(property)?: kendo.ui.MultiColumnComboBoxAnimationOpen"
+      },
+      "MultiColumnComboBoxAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MultiColumnComboBoxAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MultiColumnComboBoxColumn": {
+	"field":"(property)?: string",
+	"headerTemplate":"(property)?: string | Function",
+	"template":"(property)?: string | Function",
+	"title":"(property)?: string",
+	"width":"(property)?: string | number"
+      },
+      "MultiColumnComboBoxOptions": {
+	"animation":"(property)?: kendo.ui.MultiColumnComboBoxAnimation",
+	"autoBind":"(property)?: boolean",
+	"autoWidth":"(property)?: boolean",
+	"cascade":"(method)?(e: kendo.ui.MultiColumnComboBoxCascadeEvent): void",
+	"cascadeFrom":"(property)?: string",
+	"cascadeFromField":"(property)?: string",
+	"change":"(method)?(e: kendo.ui.MultiColumnComboBoxChangeEvent): void",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.MultiColumnComboBoxCloseEvent): void",
+	"columns":"(property)?: kendo.ui.MultiColumnComboBoxColumn[]",
+	"dataBound":"(method)?(e: kendo.ui.MultiColumnComboBoxDataBoundEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"dataValueField":"(property)?: string",
+	"delay":"(property)?: number",
+	"dropDownWidth":"(property)?: string | number",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filterFields":"(property)?: any",
+	"filtering":"(method)?(e: kendo.ui.MultiColumnComboBoxFilteringEvent): void",
+	"fixedGroupTemplate":"(property)?: string | Function",
+	"footerTemplate":"(property)?: string | Function",
+	"groupTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: number",
+	"highlightFirst":"(property)?: boolean",
+	"ignoreCase":"(property)?: boolean",
+	"index":"(property)?: number",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.MultiColumnComboBoxOpenEvent): void",
+	"placeholder":"(property)?: string",
+	"popup":"(property)?: kendo.ui.MultiColumnComboBoxPopup",
+	"select":"(method)?(e: kendo.ui.MultiColumnComboBoxSelectEvent): void",
+	"suggest":"(property)?: boolean",
+	"syncValueAndText":"(property)?: boolean",
+	"template":"(property)?: string | Function",
+	"text":"(property)?: string",
+	"value":"(property)?: string",
+	"valuePrimitive":"(property)?: boolean",
+	"virtual":"(property)?: boolean | kendo.ui.MultiColumnComboBoxVirtual"
+      },
+      "MultiColumnComboBoxPopup": {
+	"appendTo":"(property)?: string",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "MultiColumnComboBoxVirtual": {
+	"itemHeight":"(property)?: number",
+	"mapValueTo":"(property)?: string",
+	"valueMapper":"(property)?: Function"
+      },
+      "MultiSelectAnimation": {
+	"close":"(property)?: kendo.ui.MultiSelectAnimationClose",
+	"open":"(property)?: kendo.ui.MultiSelectAnimationOpen"
+      },
+      "MultiSelectAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MultiSelectAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "MultiSelectOptions": {
+	"animation":"(property)?: boolean | kendo.ui.MultiSelectAnimation",
+	"autoBind":"(property)?: boolean",
+	"autoClose":"(property)?: boolean",
+	"autoWidth":"(property)?: boolean",
+	"change":"(method)?(e: kendo.ui.MultiSelectChangeEvent): void",
+	"clearButton":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.MultiSelectCloseEvent): void",
+	"dataBound":"(method)?(e: kendo.ui.MultiSelectDataBoundEvent): void",
+	"dataSource":"(property)?: any",
+	"dataTextField":"(property)?: string",
+	"dataValueField":"(property)?: string",
+	"delay":"(property)?: number",
+	"deselect":"(method)?(e: kendo.ui.MultiSelectDeselectEvent): void",
+	"enable":"(property)?: boolean",
+	"enforceMinLength":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"filtering":"(method)?(e: kendo.ui.MultiSelectFilteringEvent): void",
+	"fixedGroupTemplate":"(property)?: string | Function",
+	"footerTemplate":"(property)?: string | Function",
+	"groupTemplate":"(property)?: string | Function",
+	"headerTemplate":"(property)?: string | Function",
+	"height":"(property)?: number",
+	"highlightFirst":"(property)?: boolean",
+	"ignoreCase":"(property)?: boolean",
+	"itemTemplate":"(property)?: string | Function",
+	"maxSelectedItems":"(property)?: number",
+	"minLength":"(property)?: number",
+	"name":"(property)?: string",
+	"noDataTemplate":"(property)?: string | Function",
+	"open":"(method)?(e: kendo.ui.MultiSelectOpenEvent): void",
+	"placeholder":"(property)?: string",
+	"popup":"(property)?: kendo.ui.MultiSelectPopup",
+	"select":"(method)?(e: kendo.ui.MultiSelectSelectEvent): void",
+	"tagMode":"(property)?: string",
+	"tagTemplate":"(property)?: string | Function",
+	"value":"(property)?: any",
+	"valuePrimitive":"(property)?: boolean",
+	"virtual":"(property)?: boolean | kendo.ui.MultiSelectVirtual"
+      },
+      "MultiSelectPopup": {
+	"appendTo":"(property)?: string",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "MultiSelectVirtual": {
+	"itemHeight":"(property)?: number",
+	"mapValueTo":"(property)?: string",
+	"valueMapper":"(property)?: Function"
+      },
+      "NotificationOptions": {
+	"allowHideAfter":"(property)?: number",
+	"animation":"(property)?: any",
+	"appendTo":"(property)?: string | JQuery<HTMLElement>",
+	"autoHideAfter":"(property)?: number",
+	"button":"(property)?: boolean",
+	"height":"(property)?: string | number",
+	"hide":"(method)?(e: kendo.ui.NotificationHideEvent): void",
+	"hideOnClick":"(property)?: boolean",
+	"name":"(property)?: string",
+	"position":"(property)?: kendo.ui.NotificationPosition",
+	"show":"(method)?(e: kendo.ui.NotificationShowEvent): void",
+	"stacking":"(property)?: string",
+	"templates":"(property)?: kendo.ui.NotificationTemplate[]",
+	"width":"(property)?: string | number"
+      },
+      "NotificationPosition": {
+	"bottom":"(property)?: number",
+	"left":"(property)?: number",
+	"pinned":"(property)?: boolean",
+	"right":"(property)?: number",
+	"top":"(property)?: number"
+      },
+      "NotificationTemplate": {"template":"(property)?: string", "type":"(property)?: string"},
+      "NumericTextBoxOptions": {
+	"change":"(method)?(e: kendo.ui.NumericTextBoxChangeEvent): void",
+	"culture":"(property)?: string",
+	"decimals":"(property)?: number",
+	"downArrowText":"(property)?: string",
+	"factor":"(property)?: number",
+	"format":"(property)?: string",
+	"max":"(property)?: number",
+	"min":"(property)?: number",
+	"name":"(property)?: string",
+	"placeholder":"(property)?: string",
+	"restrictDecimals":"(property)?: boolean",
+	"round":"(property)?: boolean",
+	"spin":"(method)?(e: kendo.ui.NumericTextBoxSpinEvent): void",
+	"spinners":"(property)?: boolean",
+	"step":"(property)?: number",
+	"upArrowText":"(property)?: string",
+	"value":"(property)?: number"
+      },
+      "PagerMessages": {
+	"allPages":"(property)?: string",
+	"display":"(property)?: string",
+	"empty":"(property)?: string",
+	"first":"(property)?: string",
+	"itemsPerPage":"(property)?: string",
+	"last":"(property)?: string",
+	"next":"(property)?: string",
+	"of":"(property)?: string",
+	"page":"(property)?: string",
+	"previous":"(property)?: string",
+	"refresh":"(property)?: string"
+      },
+      "PagerOptions": {
+	"autoBind":"(property)?: boolean",
+	"buttonCount":"(property)?: number",
+	"change":"(method)?(e: kendo.ui.PagerChangeEvent): void",
+	"dataSource":"(property)?: any",
+	"info":"(property)?: boolean",
+	"input":"(property)?: boolean",
+	"linkTemplate":"(property)?: string",
+	"messages":"(property)?: kendo.ui.PagerMessages",
+	"name":"(property)?: string",
+	"numeric":"(property)?: boolean",
+	"pageSizes":"(property)?: any",
+	"previousNext":"(property)?: boolean",
+	"refresh":"(property)?: boolean",
+	"selectTemplate":"(property)?: string"
+      },
+      "PanelBarAnimation": {
+	"collapse":"(property)?: kendo.ui.PanelBarAnimationCollapse",
+	"expand":"(property)?: kendo.ui.PanelBarAnimationExpand"
+      },
+      "PanelBarAnimationCollapse": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "PanelBarAnimationExpand": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "PanelBarMessages": {
+	"loading":"(property)?: string",
+	"requestFailed":"(property)?: string",
+	"retry":"(property)?: string"
+      },
+      "PanelBarOptions": {
+	"activate":"(method)?(e: kendo.ui.PanelBarActivateEvent): void",
+	"animation":"(property)?: boolean | kendo.ui.PanelBarAnimation",
+	"autoBind":"(property)?: boolean",
+	"collapse":"(method)?(e: kendo.ui.PanelBarCollapseEvent): void",
+	"contentLoad":"(method)?(e: kendo.ui.PanelBarContentLoadEvent): void",
+	"contentUrls":"(property)?: any",
+	"dataBound":"(method)?(e: kendo.ui.PanelBarDataBoundEvent): void",
+	"dataImageUrlField":"(property)?: string",
+	"dataSource":"(property)?: any",
+	"dataSpriteCssClassField":"(property)?: string",
+	"dataTextField":"(property)?: any",
+	"dataUrlField":"(property)?: string",
+	"error":"(method)?(e: kendo.ui.PanelBarErrorEvent): void",
+	"expand":"(method)?(e: kendo.ui.PanelBarExpandEvent): void",
+	"expandMode":"(property)?: string",
+	"loadOnDemand":"(property)?: boolean",
+	"messages":"(property)?: kendo.ui.PanelBarMessages",
+	"name":"(property)?: string",
+	"select":"(method)?(e: kendo.ui.PanelBarSelectEvent): void",
+	"template":"(property)?: string | Function"
+      },
+      "PivotConfiguratorMessages": {
+	"columns":"(property)?: string",
+	"columnsLabel":"(property)?: string",
+	"fieldMenu":"(property)?: kendo.ui.PivotConfiguratorMessagesFieldMenu",
+	"fieldsLabel":"(property)?: string",
+	"measures":"(property)?: string",
+	"measuresLabel":"(property)?: string",
+	"rows":"(property)?: string",
+	"rowsLabel":"(property)?: string"
+      },
+      "PivotConfiguratorMessagesFieldMenu": {
+	"cancel":"(property)?: string",
+	"clear":"(property)?: string",
+	"filter":"(property)?: string",
+	"filterFields":"(property)?: string",
+	"include":"(property)?: string",
+	"info":"(property)?: string",
+	"ok":"(property)?: string",
+	"operators":"(property)?: kendo.ui.PivotConfiguratorMessagesFieldMenuOperators",
+	"sortAscending":"(property)?: string",
+	"sortDescending":"(property)?: string",
+	"title":"(property)?: string"
+      },
+      "PivotConfiguratorMessagesFieldMenuOperators": {
+	"contains":"(property)?: string",
+	"doesnotcontain":"(property)?: string",
+	"endswith":"(property)?: string",
+	"eq":"(property)?: string",
+	"neq":"(property)?: string",
+	"startswith":"(property)?: string"
+      },
+      "PivotConfiguratorOptions": {
+	"dataSource":"(property)?: any",
+	"filterable":"(property)?: boolean",
+	"height":"(property)?: string | number",
+	"messages":"(property)?: kendo.ui.PivotConfiguratorMessages",
+	"name":"(property)?: string",
+	"sortable":"(property)?: boolean | kendo.ui.PivotConfiguratorSortable"
+      },
+      "PivotConfiguratorSortable": {"allowUnsort":"(property)?: boolean"},
+      "PopupAnimation": {
+	"close":"(property)?: kendo.ui.PopupAnimationClose",
+	"open":"(property)?: kendo.ui.PopupAnimationOpen"
+      },
+      "PopupAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "PopupAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "PopupOptions": {
+	"activate":"(method)?(e: kendo.ui.PopupActivateEvent): void",
+	"adjustSize":"(property)?: any",
+	"anchor":"(property)?: string | JQuery<HTMLElement>",
+	"animation":"(property)?: boolean | kendo.ui.PopupAnimation",
+	"appendTo":"(property)?: string | JQuery<HTMLElement>",
+	"close":"(method)?(e: kendo.ui.PopupCloseEvent): void",
+	"collision":"(property)?: string",
+	"deactivate":"(method)?(e: kendo.ui.PopupDeactivateEvent): void",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.PopupOpenEvent): void",
+	"origin":"(property)?: string",
+	"position":"(property)?: string"
+      },
+      "ProgressBarAnimation": {"duration":"(property)?: number"},
+      "ProgressBarOptions": {
+	"animation":"(property)?: kendo.ui.ProgressBarAnimation",
+	"change":"(method)?(e: kendo.ui.ProgressBarChangeEvent): void",
+	"chunkCount":"(property)?: number",
+	"complete":"(method)?(e: kendo.ui.ProgressBarCompleteEvent): void",
+	"enable":"(property)?: boolean",
+	"max":"(property)?: number",
+	"min":"(property)?: number",
+	"name":"(property)?: string",
+	"orientation":"(property)?: string",
+	"reverse":"(property)?: boolean",
+	"showStatus":"(property)?: boolean",
+	"type":"(property)?: string",
+	"value":"(property)?: number"
+      },
+      "PromptMessages": {"cancel":"(property)?: string", "okText":"(property)?: string"},
+      "PromptOptions": {
+	"messages":"(property)?: kendo.ui.PromptMessages",
+	"name":"(property)?: string"
+      },
+      "RangeSliderOptions": {
+	"change":"(method)?(e: kendo.ui.RangeSliderChangeEvent): void",
+	"largeStep":"(property)?: number",
+	"leftDragHandleTitle":"(property)?: string",
+	"max":"(property)?: number",
+	"min":"(property)?: number",
+	"name":"(property)?: string",
+	"orientation":"(property)?: string",
+	"rightDragHandleTitle":"(property)?: string",
+	"selectionEnd":"(property)?: number",
+	"selectionStart":"(property)?: number",
+	"slide":"(method)?(e: kendo.ui.RangeSliderSlideEvent): void",
+	"smallStep":"(property)?: number",
+	"tickPlacement":"(property)?: string",
+	"tooltip":"(property)?: kendo.ui.RangeSliderTooltip"
+      },
+      "RangeSliderTooltip": {
+	"enabled":"(property)?: boolean",
+	"format":"(property)?: string",
+	"template":"(property)?: string"
+      },
+      "ResponsivePanelOptions": {
+	"autoClose":"(property)?: boolean",
+	"breakpoint":"(property)?: number",
+	"close":"(method)?(e: kendo.ui.ResponsivePanelEvent): void",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.ResponsivePanelEvent): void",
+	"orientation":"(property)?: string",
+	"toggleButton":"(property)?: string"
+      },
+      "SliderOptions": {
+	"change":"(method)?(e: kendo.ui.SliderChangeEvent): void",
+	"decreaseButtonTitle":"(property)?: string",
+	"dragHandleTitle":"(property)?: string",
+	"increaseButtonTitle":"(property)?: string",
+	"largeStep":"(property)?: number",
+	"max":"(property)?: number",
+	"min":"(property)?: number",
+	"name":"(property)?: string",
+	"orientation":"(property)?: string",
+	"showButtons":"(property)?: boolean",
+	"slide":"(method)?(e: kendo.ui.SliderSlideEvent): void",
+	"smallStep":"(property)?: number",
+	"tickPlacement":"(property)?: string",
+	"tooltip":"(property)?: kendo.ui.SliderTooltip",
+	"value":"(property)?: number"
+      },
+      "SliderTooltip": {
+	"enabled":"(property)?: boolean",
+	"format":"(property)?: string",
+	"template":"(property)?: string | Function"
+      },
+      "SortableCursorOffset": {"left":"(property)?: number", "top":"(property)?: number"},
+      "SortableOptions": {
+	"autoScroll":"(property)?: boolean",
+	"axis":"(property)?: string",
+	"cancel":"(method)?(e: kendo.ui.SortableCancelEvent): void",
+	"change":"(method)?(e: kendo.ui.SortableChangeEvent): void",
+	"connectWith":"(property)?: string",
+	"container":"(property)?: string | JQuery<HTMLElement>",
+	"cursor":"(property)?: string",
+	"cursorOffset":"(property)?: kendo.ui.SortableCursorOffset",
+	"disabled":"(property)?: string",
+	"end":"(method)?(e: kendo.ui.SortableEndEvent): void",
+	"filter":"(property)?: string",
+	"handler":"(property)?: string",
+	"hint":"(property)?: string | Function | JQuery<HTMLElement>",
+	"holdToDrag":"(property)?: boolean",
+	"ignore":"(property)?: string",
+	"move":"(method)?(e: kendo.ui.SortableMoveEvent): void",
+	"name":"(property)?: string",
+	"placeholder":"(property)?: string | Function | JQuery<HTMLElement>",
+	"start":"(method)?(e: kendo.ui.SortableStartEvent): void"
+      },
+      "SplitterOptions": {
+	"collapse":"(method)?(e: kendo.ui.SplitterCollapseEvent): void",
+	"contentLoad":"(method)?(e: kendo.ui.SplitterContentLoadEvent): void",
+	"error":"(method)?(e: kendo.ui.SplitterErrorEvent): void",
+	"expand":"(method)?(e: kendo.ui.SplitterExpandEvent): void",
+	"layoutChange":"(method)?(e: kendo.ui.SplitterEvent): void",
+	"name":"(property)?: string",
+	"orientation":"(property)?: string",
+	"panes":"(property)?: kendo.ui.SplitterPane[]",
+	"resize":"(method)?(e: kendo.ui.SplitterEvent): void"
+      },
+      "SplitterPane": {
+	"collapsed":"(property)?: boolean",
+	"collapsedSize":"(property)?: string",
+	"collapsible":"(property)?: boolean",
+	"contentUrl":"(property)?: string",
+	"max":"(property)?: string",
+	"min":"(property)?: string",
+	"resizable":"(property)?: boolean",
+	"scrollable":"(property)?: boolean",
+	"size":"(property)?: string"
+      },
+      "TabStripAnimation": {
+	"close":"(property)?: kendo.ui.TabStripAnimationClose",
+	"open":"(property)?: kendo.ui.TabStripAnimationOpen"
+      },
+      "TabStripAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TabStripAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TabStripOptions": {
+	"activate":"(method)?(e: kendo.ui.TabStripActivateEvent): void",
+	"animation":"(property)?: boolean | kendo.ui.TabStripAnimation",
+	"collapsible":"(property)?: boolean",
+	"contentLoad":"(method)?(e: kendo.ui.TabStripContentLoadEvent): void",
+	"contentUrls":"(property)?: any",
+	"dataContentField":"(property)?: string",
+	"dataContentUrlField":"(property)?: string",
+	"dataImageUrlField":"(property)?: string",
+	"dataSource":"(property)?: any",
+	"dataSpriteCssClass":"(property)?: string",
+	"dataTextField":"(property)?: string",
+	"dataUrlField":"(property)?: string",
+	"error":"(method)?(e: kendo.ui.TabStripErrorEvent): void",
+	"name":"(property)?: string",
+	"navigatable":"(property)?: boolean",
+	"scrollable":"(property)?: boolean | kendo.ui.TabStripScrollable",
+	"select":"(method)?(e: kendo.ui.TabStripSelectEvent): void",
+	"show":"(method)?(e: kendo.ui.TabStripShowEvent): void",
+	"tabPosition":"(property)?: string",
+	"value":"(property)?: string"
+      },
+      "TabStripScrollable": {"distance":"(property)?: number"},
+      "TimePickerAnimation": {
+	"close":"(property)?: kendo.ui.TimePickerAnimationClose",
+	"open":"(property)?: kendo.ui.TimePickerAnimationOpen"
+      },
+      "TimePickerAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TimePickerAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TimePickerOptions": {
+	"animation":"(property)?: boolean | kendo.ui.TimePickerAnimation",
+	"change":"(method)?(e: kendo.ui.TimePickerChangeEvent): void",
+	"close":"(method)?(e: kendo.ui.TimePickerCloseEvent): void",
+	"culture":"(property)?: string",
+	"dateInput":"(property)?: boolean",
+	"dates":"(property)?: any",
+	"format":"(property)?: string",
+	"interval":"(property)?: number",
+	"max":"(property)?: Date",
+	"min":"(property)?: Date",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.TimePickerOpenEvent): void",
+	"parseFormats":"(property)?: any",
+	"value":"(property)?: Date"
+      },
+      "ToolBarItem": {
+	"attributes":"(property)?: any",
+	"buttons":"(property)?: kendo.ui.ToolBarItemButton[]",
+	"click":"(property)?: Function",
+	"enable":"(property)?: boolean",
+	"group":"(property)?: string",
+	"hidden":"(property)?: boolean",
+	"icon":"(property)?: string",
+	"id":"(property)?: string",
+	"imageUrl":"(property)?: string",
+	"menuButtons":"(property)?: kendo.ui.ToolBarItemMenuButton[]",
+	"overflow":"(property)?: string",
+	"overflowTemplate":"(property)?: string | Function",
+	"primary":"(property)?: boolean",
+	"selected":"(property)?: boolean",
+	"showIcon":"(property)?: string",
+	"showText":"(property)?: string",
+	"spriteCssClass":"(property)?: string",
+	"template":"(property)?: string | Function",
+	"text":"(property)?: string",
+	"togglable":"(property)?: boolean",
+	"toggle":"(property)?: Function",
+	"type":"(property)?: string",
+	"url":"(property)?: string"
+      },
+      "ToolBarItemButton": {
+	"attributes":"(property)?: any",
+	"click":"(property)?: Function",
+	"enable":"(property)?: boolean",
+	"group":"(property)?: string",
+	"hidden":"(property)?: boolean",
+	"icon":"(property)?: string",
+	"id":"(property)?: string",
+	"imageUrl":"(property)?: string",
+	"selected":"(property)?: boolean",
+	"showIcon":"(property)?: string",
+	"showText":"(property)?: string",
+	"spriteCssClass":"(property)?: string",
+	"text":"(property)?: string",
+	"togglable":"(property)?: boolean",
+	"toggle":"(property)?: Function",
+	"url":"(property)?: string"
+      },
+      "ToolBarItemMenuButton": {
+	"attributes":"(property)?: any",
+	"enable":"(property)?: boolean",
+	"hidden":"(property)?: boolean",
+	"icon":"(property)?: string",
+	"id":"(property)?: string",
+	"imageUrl":"(property)?: string",
+	"spriteCssClass":"(property)?: string",
+	"text":"(property)?: string",
+	"url":"(property)?: string"
+      },
+      "ToolBarOptions": {
+	"click":"(method)?(e: kendo.ui.ToolBarClickEvent): void",
+	"close":"(method)?(e: kendo.ui.ToolBarCloseEvent): void",
+	"items":"(property)?: kendo.ui.ToolBarItem[]",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.ToolBarOpenEvent): void",
+	"overflowClose":"(method)?(e: kendo.ui.ToolBarOverflowCloseEvent): void",
+	"overflowOpen":"(method)?(e: kendo.ui.ToolBarOverflowOpenEvent): void",
+	"resizable":"(property)?: boolean",
+	"toggle":"(method)?(e: kendo.ui.ToolBarToggleEvent): void"
+      },
+      "TooltipAnimation": {
+	"close":"(property)?: kendo.ui.TooltipAnimationClose",
+	"open":"(property)?: kendo.ui.TooltipAnimationOpen"
+      },
+      "TooltipAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TooltipAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "TooltipOptions": {
+	"animation":"(property)?: boolean | kendo.ui.TooltipAnimation",
+	"autoHide":"(property)?: boolean",
+	"callout":"(property)?: boolean",
+	"content":"(property)?: string | Function | kendo.ui.TooltipContent",
+	"contentLoad":"(method)?(e: kendo.ui.TooltipEvent): void",
+	"error":"(method)?(e: kendo.ui.TooltipErrorEvent): void",
+	"filter":"(property)?: string",
+	"height":"(property)?: number",
+	"hide":"(method)?(e: kendo.ui.TooltipEvent): void",
+	"iframe":"(property)?: boolean",
+	"name":"(property)?: string",
+	"position":"(property)?: string",
+	"requestStart":"(method)?(e: kendo.ui.TooltipRequestStartEvent): void",
+	"show":"(method)?(e: kendo.ui.TooltipEvent): void",
+	"showAfter":"(property)?: number",
+	"showOn":"(property)?: string",
+	"width":"(property)?: number"
+      },
+      "TouchOptions": {
+	"doubleTapTimeout":"(property)?: number",
+	"doubletap":"(method)?(e: kendo.ui.TouchDoubletapEvent): void",
+	"drag":"(method)?(e: kendo.ui.TouchDragEvent): void",
+	"dragend":"(method)?(e: kendo.ui.TouchDragendEvent): void",
+	"dragstart":"(method)?(e: kendo.ui.TouchDragstartEvent): void",
+	"enableSwipe":"(property)?: boolean",
+	"filter":"(property)?: string",
+	"gesturechange":"(method)?(e: kendo.ui.TouchGesturechangeEvent): void",
+	"gestureend":"(method)?(e: kendo.ui.TouchGestureendEvent): void",
+	"gesturestart":"(method)?(e: kendo.ui.TouchGesturestartEvent): void",
+	"hold":"(method)?(e: kendo.ui.TouchHoldEvent): void",
+	"maxDuration":"(property)?: number",
+	"maxYDelta":"(property)?: number",
+	"minHold":"(property)?: number",
+	"minXDelta":"(property)?: number",
+	"multiTouch":"(property)?: boolean",
+	"name":"(property)?: string",
+	"surface":"(property)?: JQuery<HTMLElement>",
+	"swipe":"(method)?(e: kendo.ui.TouchSwipeEvent): void",
+	"tap":"(method)?(e: kendo.ui.TouchTapEvent): void",
+	"touchstart":"(method)?(e: kendo.ui.TouchTouchstartEvent): void"
+      },
+      "ValidatorOptions": {
+	"errorTemplate":"(property)?: string",
+	"messages":"(property)?: any",
+	"name":"(property)?: string",
+	"rules":"(property)?: any",
+	"validate":"(method)?(e: kendo.ui.ValidatorValidateEvent): void",
+	"validateInput":"(method)?(e: kendo.ui.ValidatorValidateInputEvent): void",
+	"validateOnBlur":"(property)?: boolean"
+      },
+      "WindowAnimation": {
+	"close":"(property)?: kendo.ui.WindowAnimationClose",
+	"open":"(property)?: kendo.ui.WindowAnimationOpen"
+      },
+      "WindowAnimationClose": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "WindowAnimationOpen": {
+	"duration":"(property)?: number",
+	"effects":"(property)?: string"
+      },
+      "WindowContent": {"template":"(property)?: string"},
+      "WindowOptions": {
+	"actions":"(property)?: any",
+	"activate":"(method)?(e: kendo.ui.WindowEvent): void",
+	"animation":"(property)?: boolean | kendo.ui.WindowAnimation",
+	"appendTo":"(property)?: any",
+	"autoFocus":"(property)?: boolean",
+	"close":"(method)?(e: kendo.ui.WindowCloseEvent): void",
+	"content":"(property)?: string | kendo.ui.WindowContent",
+	"deactivate":"(method)?(e: kendo.ui.WindowEvent): void",
+	"dragend":"(method)?(e: kendo.ui.WindowEvent): void",
+	"draggable":"(property)?: boolean",
+	"dragstart":"(method)?(e: kendo.ui.WindowEvent): void",
+	"error":"(method)?(e: kendo.ui.WindowErrorEvent): void",
+	"height":"(property)?: string | number",
+	"iframe":"(property)?: boolean",
+	"maxHeight":"(property)?: number",
+	"maxWidth":"(property)?: number",
+	"maximize":"(method)?(e: kendo.ui.WindowEvent): void",
+	"minHeight":"(property)?: number",
+	"minWidth":"(property)?: number",
+	"minimize":"(method)?(e: kendo.ui.WindowEvent): void",
+	"modal":"(property)?: boolean",
+	"name":"(property)?: string",
+	"open":"(method)?(e: kendo.ui.WindowEvent): void",
+	"pinned":"(property)?: boolean",
+	"position":"(property)?: kendo.ui.WindowPosition",
+	"refresh":"(method)?(e: kendo.ui.WindowEvent): void",
+	"resizable":"(property)?: boolean",
+	"resize":"(method)?(e: kendo.ui.WindowEvent): void",
+	"scrollable":"(property)?: boolean",
+	"title":"(property)?: string | boolean",
+	"visible":"(property)?: boolean",
+	"width":"(property)?: string | number"
+      },
+      "WindowPosition": {
+	"left":"(property)?: string | number",
+	"top":"(property)?: string | number"
+      }
+    }
+  },
+  "null":null,
+  "options": {
+    "Alert":"kendo.ui.AlertOptions",
+    "ArcGauge":"kendo.dataviz.ui.ArcGaugeOptions",
+    "AutoComplete":"kendo.ui.AutoCompleteOptions",
+    "Button":"kendo.ui.ButtonOptions",
+    "ButtonGroup":"kendo.ui.ButtonGroupOptions",
+    "Calendar":"kendo.ui.CalendarOptions",
+    "Chat":"kendo.ui.ChatOptions",
+    "ColorPalette":"kendo.ui.ColorPaletteOptions",
+    "ColorPicker":"kendo.ui.ColorPickerOptions",
+    "ComboBox":"kendo.ui.ComboBoxOptions",
+    "Confirm":"kendo.ui.ConfirmOptions",
+    "ContextMenu":"kendo.ui.ContextMenuOptions",
+    "DateInput":"kendo.ui.DateInputOptions",
+    "DatePicker":"kendo.ui.DatePickerOptions",
+    "DateTimePicker":"kendo.ui.DateTimePickerOptions",
+    "Dialog":"kendo.ui.DialogOptions",
+    "Draggable":"kendo.ui.DraggableOptions",
+    "DropDownList":"kendo.ui.DropDownListOptions",
+    "DropDownTree":"kendo.ui.DropDownTreeOptions",
+    "DropTarget":"kendo.ui.DropTargetOptions",
+    "DropTargetArea":"kendo.ui.DropTargetAreaOptions",
+    "FilterMenu":"kendo.ui.FilterMenuOptions",
+    "FlatColorPicker":"kendo.ui.FlatColorPickerOptions",
+    "ListBox":"kendo.ui.ListBoxOptions",
+    "ListView":"kendo.ui.ListViewOptions",
+    "MaskedTextBox":"kendo.ui.MaskedTextBoxOptions",
+    "Menu":"kendo.ui.MenuOptions",
+    "MobileActionSheet":"kendo.mobile.ui.ActionSheetOptions",
+    "MobileBackButton":"kendo.mobile.ui.BackButtonOptions",
+    "MobileButton":"kendo.mobile.ui.ButtonOptions",
+    "MobileButtonGroup":"kendo.mobile.ui.ButtonGroupOptions",
+    "MobileCollapsible":"kendo.mobile.ui.CollapsibleOptions",
+    "MobileDetailButton":"kendo.mobile.ui.DetailButtonOptions",
+    "MobileDrawer":"kendo.mobile.ui.DrawerOptions",
+    "MobileLayout":"kendo.mobile.ui.LayoutOptions",
+    "MobileListView":"kendo.mobile.ui.ListViewOptions",
+    "MobileLoader":"kendo.mobile.ui.LoaderOptions",
+    "MobileModalView":"kendo.mobile.ui.ModalViewOptions",
+    "MobileNavBar":"kendo.mobile.ui.NavBarOptions",
+    "MobilePane":"kendo.mobile.ui.PaneOptions",
+    "MobilePopOver":"kendo.mobile.ui.PopOverOptions",
+    "MobileScrollView":"kendo.mobile.ui.ScrollViewOptions",
+    "MobileScroller":"kendo.mobile.ui.ScrollerOptions",
+    "MobileSplitView":"kendo.mobile.ui.SplitViewOptions",
+    "MobileSwitch":"kendo.mobile.ui.SwitchOptions",
+    "MobileTabStrip":"kendo.mobile.ui.TabStripOptions",
+    "MobileView":"kendo.mobile.ui.ViewOptions",
+    "MultiColumnComboBox":"kendo.ui.MultiColumnComboBoxOptions",
+    "MultiSelect":"kendo.ui.MultiSelectOptions",
+    "Notification":"kendo.ui.NotificationOptions",
+    "NumericTextBox":"kendo.ui.NumericTextBoxOptions",
+    "Pager":"kendo.ui.PagerOptions",
+    "PanelBar":"kendo.ui.PanelBarOptions",
+    "PivotConfigurator":"kendo.ui.PivotConfiguratorOptions",
+    "Popup":"kendo.ui.PopupOptions",
+    "ProgressBar":"kendo.ui.ProgressBarOptions",
+    "Prompt":"kendo.ui.PromptOptions",
+    "RangeSlider":"kendo.ui.RangeSliderOptions",
+    "ResponsivePanel":"kendo.ui.ResponsivePanelOptions",
+    "Slider":"kendo.ui.SliderOptions",
+    "Sortable":"kendo.ui.SortableOptions",
+    "Splitter":"kendo.ui.SplitterOptions",
+    "TabStrip":"kendo.ui.TabStripOptions",
+    "TimePicker":"kendo.ui.TimePickerOptions",
+    "ToolBar":"kendo.ui.ToolBarOptions",
+    "Tooltip":"kendo.ui.TooltipOptions",
+    "Touch":"kendo.ui.TouchOptions",
+    "Validator":"kendo.ui.ValidatorOptions",
+    "Window":"kendo.ui.WindowOptions"
+  }
+}

@@ -1,0 +1,7 @@
+out/**/*.js
+out/**/*.map
+node_modules
+src/**/*.js
+src/utils
+.vscode/symbols.json
+
