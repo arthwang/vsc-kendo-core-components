@@ -28,7 +28,7 @@ This extension will try to keep the pace with latest version of Kendo UI Core. Y
 </body>
 </html>
 ~~~
-The last line of above snippet refers to KUICC package. You can install it by 'npm i --save kendoui-core-components'.
+The last line in `<head></head>` above snippet refers to KUICC package. You can install it by `npm i --save kendoui-core-components`.
 
 ### Kendo widget tag completions
 
