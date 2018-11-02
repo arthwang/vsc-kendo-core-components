@@ -47,6 +47,15 @@
         ]
       }
     ],
+    "grammars": [
+      {
+        "injectTo": [
+          "text.html.basic"
+        ],
+        "scopeName": "html.quotedjs",
+        "path": "./syntaxes/quotedjs.json"
+      }
+    ],
     "snippets": [
       {
         "language": "html",
