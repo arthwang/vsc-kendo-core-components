@@ -2,7 +2,7 @@
   "name": "vsc-kendo-core-components",
   "displayName": "VSC-Kendo-Core-Components",
   "description": "Support for web component attribute completions of kendo ui core",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "publisher": "arthurwang",
   "license": "MIT",
   "engines": {
