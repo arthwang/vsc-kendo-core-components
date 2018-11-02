@@ -3,6 +3,7 @@
 !out/src/**/*.js
 !out/src/**/*.json
 !snippets
+!syntaxes
 !images/**/*
 !README.md
 !package.json

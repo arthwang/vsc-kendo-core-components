@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.2.1]
+* added syntax
 ## [0.2.0]
 * js injection to quoted attribute values
 ## [0.1.3]
