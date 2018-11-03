@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.3.0]
+* template highlighting
 ## [0.2.1]
 * added syntax
 ## [0.2.0]
