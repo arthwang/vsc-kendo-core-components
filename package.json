@@ -54,6 +54,13 @@
         ],
         "scopeName": "html.quotedjs",
         "path": "./syntaxes/quotedjs.json"
+      },
+      {
+        "injectTo": [
+          "text.html.basic"
+        ],
+        "scopeName": "html.template",
+        "path": "./syntaxes/tmplhtml.json"
       }
     ],
     "snippets": [

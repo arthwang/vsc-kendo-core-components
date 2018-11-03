@@ -1,0 +1,10 @@
+{
+  "fileTypes": [],
+  "scopeName": "html.template",
+  "injectionSelector": "meta.embedded.block.html",
+  "patterns": [
+    {
+      "include": "text.html.basic"
+    }
+  ]
+}
