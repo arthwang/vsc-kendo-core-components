@@ -7,6 +7,9 @@
       "include": "source.js#function-declaration"
     },
     {
+      "include": "source.js#function-call"
+    },
+    {
       "include": "source.js#object-literal"
     },
     {

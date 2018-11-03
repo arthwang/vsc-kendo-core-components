@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.3.1]
+* added function-call to js injection
 ## [0.3.0]
 * template highlighting
 ## [0.2.1]
