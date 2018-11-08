@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.3.2]
+* support for js highlighting in kendo templates
 ## [0.3.1]
 * added function-call to js injection
 ## [0.3.0]
