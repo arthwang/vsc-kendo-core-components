@@ -5,18 +5,21 @@ import * as vscode from "vscode";
 import * as os from "os";
 
 import KendoCompletionItemProvider from './features/kendoCompletionItemProvider';
+import AttributeFormatter from "./features/attributeFormatter";
 
 
 export function activate(context: vscode.ExtensionContext) {
   console.log('Congratulations, your extension "vsc-kendo-core-components" is now active!');
-
   const HTML_MODE: vscode.DocumentFilter = { language: "html", scheme: "file" };
 
   context.subscriptions.push(vscode.languages.registerCompletionItemProvider(HTML_MODE, new KendoCompletionItemProvider(context), ' ', '+', '\n', '{', ','));
 
-  // context.subscriptions.push(
-  //   languages.registerHoverProvider(HTML_MODE, new PicatHoverProvider())
-  // );
+
+  context.subscriptions.push(
+    vscode.languages.registerDocumentFormattingEditProvider(
+      HTML_MODE, new AttributeFormatter()
+    )
+  );
 }
 // this method is called when your extension is deactivated
 export function deactivate() { }
