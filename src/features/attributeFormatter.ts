@@ -23,7 +23,7 @@ export default class AttributeFormatter
           if (/^\s*[\)\]\}]/.test(attrLines[i])) {
             indents--;
           }
-          if (aMatch.index === 0) {
+          if (aMatch.index === 0 && i === 0) {
             str += attrLines[0];
           } else {
             let spcNum = alignCol + options.tabSize * indents;
