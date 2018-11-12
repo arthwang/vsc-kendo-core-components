@@ -14,12 +14,8 @@ export function activate(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(vscode.languages.registerCompletionItemProvider(HTML_MODE, new KendoCompletionItemProvider(context), ' ', '+', '\n', '{', ','));
 
-
-  context.subscriptions.push(
-    vscode.languages.registerDocumentFormattingEditProvider(
-      HTML_MODE, new AttributeFormatter()
-    )
-  );
+  vscode.workspace.onWillSaveTextDocument(AttributeFormatter.formatAttributes);
 }
+
 // this method is called when your extension is deactivated
 export function deactivate() { }

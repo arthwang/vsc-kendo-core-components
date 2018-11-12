@@ -1,7 +1,9 @@
 # Changelog
 
+## [0.4.2]
+* improved attribute formatter
 ## [0.4.1]
-* fixed a but in attribute formattor
+* fixed a bug in attribute formattor
 ## [0.4.0]
 * support for html attribute value formatting
 ## [0.3.2]

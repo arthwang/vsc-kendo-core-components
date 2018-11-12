@@ -1,16 +1,16 @@
-import { DocumentFormattingEditProvider, TextEdit, TextDocument, Range, FormattingOptions } from 'vscode';
+import { TextDocument, Range, workspace, WorkspaceEdit, TextDocumentWillSaveEvent } from 'vscode';
 import * as os from 'os';
-export default class AttributeFormatter
-  implements DocumentFormattingEditProvider {
-  constructor() { }
-  public provideDocumentFormattingEdits(doc: TextDocument, options: FormattingOptions): TextEdit[] {
-    const textEdits: TextEdit[] = [];
-
+export default class AttributeFormatter {
+  static formatAttributes(e: TextDocumentWillSaveEvent) {
+    const doc = e.document;
+    const tabSize = 2;
+    // const textEdits: TextEdit[] = [];
     const kendosRe = /(<km?-[\w-]+)((\s+[\w-]+(=(\w+|'[^']+'|"[^"]+"))?)+)/gm
     const attrRe = /\s+[\w-]+(=(\w+|'[^']+'|"[^"]+"))?/gm;
     const text = doc.getText().toString();
     let kMatch: RegExpExecArray = null;
     while ((kMatch = kendosRe.exec(text)) !== null) {
+      const edit = new WorkspaceEdit();
       let str = '';
       const alignCol = doc.positionAt(kMatch.index + kMatch[1].length).character + 1;
       let aMatch: RegExpExecArray = null;
@@ -26,7 +26,7 @@ export default class AttributeFormatter
           if (aMatch.index === 0 && i === 0) {
             str += attrLines[0];
           } else {
-            let spcNum = alignCol + options.tabSize * indents;
+            let spcNum = alignCol + tabSize * indents;
             if (!/^[\w-]+(=|$)/.test(attrLines[i])) {
               spcNum += 4;
             }
@@ -38,8 +38,10 @@ export default class AttributeFormatter
           str += os.EOL;
         }
       }
-      textEdits.push(TextEdit.replace(new Range(startPos, endPos), str.trim()));
+      // textEdits.push(TextEdit.replace(new Range(startPos, endPos), str.trim()));
+      edit.replace(doc.uri, new Range(startPos, endPos), str.trim());
+      workspace.applyEdit(edit);
     }
-    return textEdits;
+    // return textEdits;
   }
 }
