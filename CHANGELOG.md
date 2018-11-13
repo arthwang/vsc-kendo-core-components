@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.4.3]
+* fixed a bug in the formatter for multiple widget attributes
 ## [0.4.2]
 * improved attribute formatter
 ## [0.4.1]
