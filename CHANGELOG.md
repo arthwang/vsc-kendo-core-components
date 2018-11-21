@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.4.4]
+* updated grammar injections
 ## [0.4.3]
 * fixed a bug in the formatter for multiple widget attributes
 ## [0.4.2]

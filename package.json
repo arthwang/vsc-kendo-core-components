@@ -50,14 +50,14 @@
     "grammars": [
       {
         "injectTo": [
-          "text.html.basic"
+          "text.html.derivative"
         ],
         "scopeName": "html.quotedjs",
         "path": "./syntaxes/quotedjs.json"
       },
       {
         "injectTo": [
-          "text.html.basic"
+          "text.html.derivative"
         ],
         "scopeName": "html.template",
         "path": "./syntaxes/tmplhtml.json"
